@@ -1,0 +1,130 @@
+body {
+    background: radial-gradient(
+      circle at 10% 20%,
+      rgb(222, 168, 248) 0%,
+      rgb(168, 222, 248) 21.8%,
+      rgb(189, 250, 205) 35.6%,
+      rgb(243, 250, 189) 52.9%,
+      rgb(250, 227, 189) 66.8%,
+      rgb(248, 172, 172) 90%,
+      rgb(254, 211, 252) 99.7%
+    );
+    background-size: 1000%;
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c1facb;
+  }
+  main {
+    padding: 30px 0;
+  }
+.Weather {
+    background: white;
+    max-width: 900px;
+    margin: 45px auto;
+    padding: 30px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+  }
+  .form-control {
+    background: radial-gradient(
+      circle at 10% 20%,
+      rgb(222, 168, 248) 0%,
+      rgb(168, 222, 248) 21.8%,
+      rgb(189, 250, 205) 35.6%,
+      rgb(243, 250, 189) 52.9%,
+      rgb(250, 227, 189) 66.8%,
+      rgb(248, 172, 172) 90%,
+      rgb(254, 211, 252) 99.7%
+    );
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .btn {
+    background: radial-gradient(
+      circle at 10% 20%,
+      rgb(222, 168, 248) 0%,
+      rgb(168, 222, 248) 21.8%,
+      rgb(189, 250, 205) 35.6%,
+      rgb(243, 250, 189) 52.9%,
+      rgb(250, 227, 189) 66.8%,
+      rgb(248, 172, 172) 90%,
+      rgb(254, 211, 252) 99.7%
+    );
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    color: #8a2be2;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .btn:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 3px 15px rgba(0, 0, 0, 0.2); color: #dbabf8;
+  }
+  .Weather .overview {
+    margin-bottom: 20px;
+  }
+  
+  .Weather .weather-temperature img {
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+  }
+  
+  .Weather .weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+  }
+  
+  .Weather .weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+  }
+  
+  .Weather .weather-temperature .active {
+    color: rgb(33, 33, 33);
+    cursor: default;
+  }
+  
+  .Weather .weather-temperature .active:hover {
+    text-decoration: none;
+  }
+  
+  .Weather .weather-forecast {
+    margin-top: 10px;
+  }
+  
+  .Weather .weather-forecast h3 {
+    color: rgb(186, 186, 186);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+    padding-top: 7px;
+  }
+  
+  .Weather .weather-forecast img {
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+    width: 48px;
+  }
+  
+  .Weather .weather-forecast-temperature {
+    text-align: center;
+    color: rgb(135, 135, 135);
+    font-size: 13px;
+    font-weight: 400;
+    height: auto;
+    line-height: 15px;
+    white-space: nowrap;
+  }
