@@ -64,6 +64,34 @@ export default function Weather() {
             </ul>
           </div>
         </div>
+        <footer>
+    This project was coded by
+    <a
+      href="https://github.com/Lunamoon36"
+      class="myProfileLink"
+      target="_blank"
+      rel="noreferrer"
+      ><strong> Cherry Atkinson </strong></a
+    >
+    and is on
+    <a
+      href="https://github.com/Lunamoon36/create-react-app"
+      class="myGitHubLink"
+      target="_blank"
+      rel="noreferrer"
+      ><strong> GitHub </strong></a
+    >
+    and hosted on
+    <a
+      href="https://cherryreactweather.netlify.app/"
+      class="myNetlifyLink"
+      target="_blank"
+      rel="noreferrer"
+
+      ><strong> Netlify </strong></a
+    >
+  </footer>
       </div>
     );
-  }
+    
+  };

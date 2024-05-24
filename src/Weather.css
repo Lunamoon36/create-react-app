@@ -128,3 +128,34 @@ body {
     line-height: 15px;
     white-space: nowrap;
   }
+  footer {
+    padding: 40px 0 0 0;
+    border-top: 1px solid #fdcae9;
+    text-align: center;
+    font-size: 14px;
+    color: #a28cf7;
+  }
+  .myProfileLink,
+  .myGitHubLink,
+  .myNetlifyLink {
+    text-decoration: none;
+  }
+  
+  .myProfileLink {
+    color: #f9b4af;
+  }
+  .myGitHubLink {
+    color: #b0e8e9;
+  }
+  .myNetlifyLink {
+    color: #dbaaf8;
+  }
+  .myProfileLink:hover {
+    text-decoration: underline;
+  }
+  .myGitHubLink:hover {
+    text-decoration: underline;
+  }
+  .myNetlifyLink:hover {
+    text-decoration: underline;
+  }
